@@ -4,29 +4,28 @@
 
 # --------------- Site Identity ---------------
 title: "Sudeepa Wanigarathna"
-tagline: "Security Research • CTF • Software Engineering • Technology"
+tagline: "Founder & CEO of SerendibWare • Security Researcher • Software Engineer"
 short_tagline: "Break. Understand. Build."
 description: >-
-  Personal cybersecurity research blog and technical knowledge base by Sudeepa Wanigarathna.
-  Covering CTF writeups, vulnerability research, Hack The Box, TryHackMe, and security engineering.
+  Personal cybersecurity research blog, enterprise software lab, and technical knowledge base by Sudeepa Wanigarathna, Founder & CEO of SerendibWare.
 
 # --------------- Site URLs ---------------
 url: "https://sudeepawanigarathna.github.io"
 baseurl: ""
 canonical_url: "https://sudeepawanigarathna.github.io"
 
-
-
 # --------------- Author ---------------
 author:
   name: "Sudeepa Wanigarathna"
   handle: "sudeepa"
   prompt: "sudeepa@research-lab"
-  role: "Security Researcher"
-  focus: "CTF / Web Security / Vulnerability Research"
-  languages: "Python / JavaScript / TypeScript / C"
-  status: "learning • researching • building"
-  email: ""   # Add your contact email here if desired
+  role: "Founder & CEO of SerendibWare • Security Researcher"
+  focus: "Enterprise AI / Web Security / Vulnerability Research"
+  languages: "Python / JavaScript / TypeScript / C / Rust"
+  status: "building • researching • innovating"
+  company: "SerendibWare"
+  company_url: "https://serendibware.com"
+  email: ""
 
 # --------------- Social ---------------
 social:
@@ -34,6 +33,7 @@ social:
   hackthebox: "https://app.hackthebox.com/users/1373370"
   tryhackme: "https://tryhackme.com/p/CerberusMrX"
   linkedin: "https://www.linkedin.com/in/sudeepa-wanigarathna09"
+
 
 # --------------- Build Settings ---------------
 markdown: kramdown

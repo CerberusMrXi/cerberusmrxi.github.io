@@ -19,11 +19,19 @@ For security research inquiries, collaboration, CTF team events, or professional
   </div>
 
   <div style="margin-bottom: 1.5rem;">
+    <div style="font-family: var(--font-mono); color: var(--text-muted); font-size: 0.85rem;">COMPANY</div>
+    <div style="font-size: 1.1rem; font-weight: 600;">
+      <a href="https://serendibware.com" target="_blank" rel="noopener noreferrer">SerendibWare — serendibware.com</a>
+    </div>
+  </div>
+
+  <div style="margin-bottom: 1.5rem;">
     <div style="font-family: var(--font-mono); color: var(--text-muted); font-size: 0.85rem;">LINKEDIN</div>
     <div style="font-size: 1.1rem; font-weight: 600;">
       <a href="https://www.linkedin.com/in/sudeepa-wanigarathna09" target="_blank" rel="noopener noreferrer">Sudeepa Wanigarathna</a>
     </div>
   </div>
+
 
   <div style="margin-bottom: 1.5rem;">
     <div style="font-family: var(--font-mono); color: var(--text-muted); font-size: 0.85rem;">HACK THE BOX</div>

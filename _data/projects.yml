@@ -1,27 +1,29 @@
-# Personal projects
-# Replace placeholder entries with real projects as they are published
+- title: "SerendibWare Enterprise AI Ecosystem"
+  description: "Scalable enterprise AI product architecture, security framework, and automated infrastructure solutions for modern intelligent applications."
+  category: "AI & Security"
+  tech: "Python, FastAPI, Docker, Security Architecture"
+  link: "https://serendibware.com"
 
-- name: "Cerberus WasteWatcher"
-  description: "Real-time waste detection and monitoring system using YOLOv8s with IoU-based tracking and temporal carry/drop logic for industrial environments."
-  stack: ["Python", "YOLOv8", "OpenCV", "FastAPI"]
-  category: "Computer Vision / AI"
-  status: "Completed"
-  github: "https://github.com/CerberusMrXi"
-  demo: ""
+- title: "Cerberus WasteWatcher"
+  description: "Real-time industrial waste tracking system utilizing YOLOv8s object detection, IoU temporal tracking, and automated carry/drop classification."
+  category: "Computer Vision"
+  tech: "Python, YOLOv8s, OpenCV, PyTorch"
+  link: "https://github.com/CerberusMrXi"
 
-- name: "Security Research Blog"
-  description: "This site — a Jekyll-based static publication platform for security research, CTF writeups, and technical articles. Designed for GitHub Pages deployment."
-  stack: ["Jekyll", "HTML", "CSS", "JavaScript"]
-  category: "Developer Tools"
-  status: "Active"
-  github: "https://github.com/CerberusMrXi/sudeepawanigarathna.github.io"
-  demo: "https://sudeepawanigarathna.github.io"
+- title: "Cerberus CubeAR Solver"
+  description: "Interactive Rubik's Cube solving assistant featuring multi-frame sticker classification, Kociemba solver, and real-time 3D step rendering."
+  category: "CV & 3D"
+  tech: "OpenCV, Three.js, Python, Kociemba"
+  link: "https://github.com/CerberusMrXi"
 
-- name: "CTF Automation Toolkit"
-  description: "Collection of scripts and utilities for accelerating common CTF workflows including enumeration, binary analysis, and web exploitation."
-  stack: ["Python", "Shell", "Bash"]
+- title: "Cerberus Elementos"
+  description: "Interactive educational platform for chemistry, interactive periodic table, and visual molecular structures."
+  category: "Web & Education"
+  tech: "JavaScript, HTML5, CSS3, Interactive UI"
+  link: "https://github.com/CerberusMrXi"
+
+- title: "Automated Exploitation & Security Tooling"
+  description: "Suite of custom security tools for Bluetooth penetration testing, steganography extraction, JWT vulnerability assessment, and CVE PoC exploits."
   category: "Security Tooling"
-  status: "In Development"
-  github: "https://github.com/CerberusMrXi"
-  demo: ""
-  placeholder: true
+  tech: "Python, Bash, C, Scapy, Burp API"
+  link: "https://github.com/CerberusMrXi"
