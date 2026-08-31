@@ -1,0 +1,40 @@
+---
+layout: default
+title: "Featured Projects"
+permalink: /projects/
+---
+
+<div class="container">
+  <h1 class="page-title">
+    Featured Projects
+  </h1>
+  <p class="page-subtitle">Security systems, software applications, and technical engineering projects.</p>
+
+  <div class="cards-grid">
+    {% for project in site.data.projects %}
+      <div class="card">
+        <div class="card-header">
+          <span class="badge badge-research">{{ project.category }}</span>
+          <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">{{ project.status }}</span>
+        </div>
+        <h3 class="card-title">{{ project.name }}</h3>
+        <p class="card-description">{{ project.description }}</p>
+        
+        <div class="card-tags">
+          {% for tech in project.stack %}
+            <span class="tag">{{ tech }}</span>
+          {% endfor %}
+        </div>
+
+        <div class="card-footer">
+          {% if project.demo != "" %}
+            <a href="{{ project.demo }}" target="_blank" rel="noopener noreferrer" class="read-more">Live Demo →</a>
+          {% else %}
+            <span></span>
+          {% endif %}
+          <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer" class="read-more">Repository →</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

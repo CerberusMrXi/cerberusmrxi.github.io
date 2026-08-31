@@ -1,0 +1,29 @@
+---
+layout: default
+title: "Tags"
+permalink: /tags/
+---
+
+<div class="container">
+  <h1 class="page-title">Tags Index</h1>
+  <p class="page-subtitle">Browse writeups and technical articles by topic tag.</p>
+
+  <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2.5rem;">
+    {% for tag in site.tags %}
+      <a href="#{{ tag[0] | slugify }}" class="tag" style="font-size: 0.9rem; padding: 0.3rem 0.6rem;">
+        #{{ tag[0] }} ({{ tag[1].size }})
+      </a>
+    {% endfor %}
+  </div>
+
+  {% for tag in site.tags %}
+    <div id="{{ tag[0] | slugify }}" style="margin-bottom: 3rem;">
+      <h2 class="section-title">#{{ tag[0] }}</h2>
+      <div class="cards-grid">
+        {% for post in tag[1] %}
+          {% include post-card.html post=post %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<article class="article-container">
+  <header class="article-header">
+    <div class="article-meta">
+      {% if page.platform %}
+        <span class="badge badge-{{ page.platform | downcase }}">{{ page.platform }}</span>
+      {% elsif page.categories.first %}
+        <span class="badge badge-{{ page.categories.first | downcase }}">{{ page.categories.first }}</span>
+      {% endif %}
+
+      {% if page.difficulty %}
+        <span class="badge-diff-{{ page.difficulty | downcase }}">Difficulty: {{ page.difficulty }}</span>
+      {% endif %}
+
+      <span>•</span>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y" }}</time>
+
+      {% if page.os %}
+        <span>•</span>
+        <span>OS: {{ page.os }}</span>
+      {% endif %}
+    </div>
+
+    <h1 class="article-title">{{ page.title }}</h1>
+
+    {% if page.description %}
+      <p class="page-subtitle">{{ page.description }}</p>
+    {% endif %}
+
+    {% if page.tags %}
+      <div class="card-tags">
+        {% for tag in page.tags %}
+          <span class="tag">#{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </header>
+
+  {% if page.toc != false %}
+  <div class="toc-box">
+    <div class="toc-title">Table of Contents</div>
+    <div class="toc-list" id="article-toc"></div>
+  </div>
+  {% endif %}
+
+  <div class="article-content">
+    {{ content }}
+  </div>
+
+  <footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 0.85rem;">
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url | relative_url }}" class="read-more">← {{ page.previous.title | truncate: 30 }}</a>
+    {% else %}
+      <div></div>
+    {% endif %}
+
+    {% if page.next.url %}
+      <a href="{{ page.next.url | relative_url }}" class="read-more">{{ page.next.title | truncate: 30 }} →</a>
+    {% endif %}
+  </footer>
+</article>

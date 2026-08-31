@@ -1,0 +1,21 @@
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby / Bundler
+vendor/
+.bundle/
+Gemfile.lock
+
+# OS / Editor junk
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Environment files
+.env
+*.key

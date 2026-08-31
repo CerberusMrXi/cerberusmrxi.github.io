@@ -1,0 +1,30 @@
+---
+layout: default
+title: "404 — Resource Not Found"
+permalink: /404.html
+---
+
+<div class="article-container" style="text-align: center; padding: 4rem 1.5rem;">
+  <div style="font-family: var(--font-mono); font-size: 6rem; font-weight: 800; color: var(--accent); line-height: 1; margin-bottom: 1rem;">
+    404
+  </div>
+
+  <div class="terminal-card" style="max-width: 540px; margin: 0 auto 2rem auto; text-align: left;">
+    <div class="terminal-header">
+      <div class="terminal-dots">
+        <span class="dot dot-red"></span>
+        <span class="dot dot-yellow"></span>
+        <span class="dot dot-green"></span>
+      </div>
+      <div class="terminal-title">error_log</div>
+      <div></div>
+    </div>
+    <div class="terminal-body">
+      <div class="terminal-line"><span class="terminal-prompt">$</span> locate requested_resource</div>
+      <div class="terminal-line" style="color: var(--danger); font-weight: 600;">ERROR: RESOURCE_NOT_FOUND</div>
+      <div class="terminal-line" style="color: var(--text-muted); margin-top: 0.5rem;">The path or address you requested does not exist on this server.</div>
+    </div>
+  </div>
+
+  <a href="{{ '/' | relative_url }}" class="btn btn-primary">Return to Home Terminal</a>
+</div>

@@ -1,0 +1,21 @@
+---
+layout: default
+title: "CTF Challenge Writeups"
+permalink: /ctf/
+---
+
+<div class="container">
+  <h1 class="page-title">
+    <span style="color: var(--tag-ctf);">CTF</span> Competition Writeups
+  </h1>
+  <p class="page-subtitle">Solutions and post-mortems for Jeopardy & Attack-Defense CTF challenges across Web, Pwn, Crypto, Rev, and Forensics.</p>
+
+  <div class="cards-grid">
+    {% assign ctf_posts = site.posts | where_exp: "item", "item.platform == 'CTF' or item.categories contains 'CTF'" %}
+    {% for post in ctf_posts %}
+      {% include post-card.html post=post %}
+    {% else %}
+      <p style="color: var(--text-muted);">No CTF writeups published yet.</p>
+    {% endfor %}
+  </div>
+</div>

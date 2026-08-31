@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Technical Articles"
+permalink: /articles/
+---
+
+<div class="container">
+  <h1 class="page-title">
+    <span style="color: var(--tag-article);">Articles</span> & Guides
+  </h1>
+  <p class="page-subtitle">Deep dives into web security concepts, automation tooling, and software engineering practices.</p>
+
+  <div class="cards-grid">
+    {% for post in site.posts %}
+      {% include post-card.html post=post %}
+    {% else %}
+      <p style="color: var(--text-muted);">No articles published yet.</p>
+    {% endfor %}
+  </div>
+</div>

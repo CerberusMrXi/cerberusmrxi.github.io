@@ -1,0 +1,29 @@
+# Security tools and personal utilities
+# Add your own tools here following the same structure
+
+- name: "Recon Toolkit"
+  description: "A modular reconnaissance automation framework that chains common enumeration tools and parses their output into structured reports."
+  language: "Python"
+  category: "Reconnaissance"
+  status: "In Development"
+  github: "https://github.com/CerberusMrXi"
+  demo: ""
+  placeholder: true
+
+- name: "JWT Analyzer"
+  description: "CLI tool for decoding, analyzing, and testing common JWT vulnerabilities including algorithm confusion and signature bypass."
+  language: "Python"
+  category: "Web Security"
+  status: "In Development"
+  github: "https://github.com/CerberusMrXi"
+  demo: ""
+  placeholder: true
+
+- name: "CTF Template Generator"
+  description: "Generates structured writeup templates and working directories for CTF challenges, pre-populated with common tooling commands."
+  language: "Python / Shell"
+  category: "CTF Tooling"
+  status: "In Development"
+  github: "https://github.com/CerberusMrXi"
+  demo: ""
+  placeholder: true

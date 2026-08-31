@@ -1,0 +1,21 @@
+---
+layout: default
+title: "Hack The Box Writeups"
+permalink: /htb/
+---
+
+<div class="container">
+  <h1 class="page-title">
+    <span style="color: var(--tag-htb);">HTB</span> Machine Writeups
+  </h1>
+  <p class="page-subtitle">Detailed penetration testing walkthroughs covering enumeration, exploitation, and privilege escalation.</p>
+
+  <div class="cards-grid">
+    {% assign htb_posts = site.posts | where_exp: "item", "item.platform == 'HTB' or item.categories contains 'HTB'" %}
+    {% for post in htb_posts %}
+      {% include post-card.html post=post %}
+    {% else %}
+      <p style="color: var(--text-muted);">No HTB writeups published yet.</p>
+    {% endfor %}
+  </div>
+</div>

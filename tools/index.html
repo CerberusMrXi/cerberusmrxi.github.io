@@ -1,0 +1,29 @@
+---
+layout: default
+title: "Tools & Utilities"
+permalink: /tools/
+---
+
+<div class="container">
+  <h1 class="page-title">
+    Security Tools & Utilities
+  </h1>
+  <p class="page-subtitle">Open-source scripts, security automation frameworks, and personal security tools.</p>
+
+  <div class="cards-grid">
+    {% for tool in site.data.tools %}
+      <div class="card">
+        <div class="card-header">
+          <span class="badge badge-ctf">{{ tool.category }}</span>
+          <span class="tag">{{ tool.language }}</span>
+        </div>
+        <h3 class="card-title">{{ tool.name }}</h3>
+        <p class="card-description">{{ tool.description }}</p>
+        <div class="card-footer">
+          <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);">Status: {{ tool.status }}</span>
+          <a href="{{ tool.github }}" target="_blank" rel="noopener noreferrer" class="read-more">GitHub →</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,39 @@
+- title: "Home"
+  url: "/"
+  id: "home"
+
+- title: "About"
+  url: "/about/"
+  id: "about"
+
+- title: "HTB"
+  url: "/htb/"
+  id: "htb"
+
+- title: "TryHackMe"
+  url: "/tryhackme/"
+  id: "tryhackme"
+
+- title: "CTF"
+  url: "/ctf/"
+  id: "ctf"
+
+- title: "Research"
+  url: "/research/"
+  id: "research"
+
+- title: "Articles"
+  url: "/articles/"
+  id: "articles"
+
+- title: "Tools"
+  url: "/tools/"
+  id: "tools"
+
+- title: "Projects"
+  url: "/projects/"
+  id: "projects"
+
+- title: "Contact"
+  url: "/contact/"
+  id: "contact"

@@ -1,0 +1,123 @@
+# ============================================================
+#  _config.yml — Sudeepa Wanigarathna / sudeepawanigarathna.github.io
+# ============================================================
+
+# --------------- Site Identity ---------------
+title: "Sudeepa Wanigarathna"
+tagline: "Security Research • CTF • Software Engineering • Technology"
+short_tagline: "Break. Understand. Build."
+description: >-
+  Personal cybersecurity research blog and technical knowledge base by Sudeepa Wanigarathna.
+  Covering CTF writeups, vulnerability research, Hack The Box, TryHackMe, and security engineering.
+
+# --------------- Site URLs ---------------
+url: "https://sudeepawanigarathna.github.io"
+baseurl: ""
+canonical_url: "https://sudeepawanigarathna.github.io"
+
+# --------------- Author ---------------
+author:
+  name: "Sudeepa Wanigarathna"
+  handle: "sudeepa"
+  prompt: "sudeepa@research-lab"
+  role: "Security Researcher"
+  focus: "CTF / Web Security / Vulnerability Research"
+  languages: "Python / JavaScript / TypeScript / C"
+  status: "learning • researching • building"
+  email: ""   # Add your contact email here if desired
+
+# --------------- Social ---------------
+social:
+  github: "https://github.com/CerberusMrXi"
+  hackthebox: "https://app.hackthebox.com/users/1373370"
+  tryhackme: "https://tryhackme.com/p/CerberusMrX"
+  linkedin: "https://www.linkedin.com/in/sudeepa-wanigarathna09"
+
+# --------------- Build Settings ---------------
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
+# --------------- Permalink ---------------
+permalink: /:categories/:year/:month/:day/:title/
+
+# --------------- Pagination ---------------
+paginate: 10
+paginate_path: "/page/:num/"
+
+# --------------- Plugins ---------------
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+# --------------- Feed ---------------
+feed:
+  title: "Sudeepa Wanigarathna — Security Research Blog"
+  path: feed.xml
+
+# --------------- Defaults ---------------
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Sudeepa Wanigarathna"
+      image: ""
+      toc: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# --------------- Collections ---------------
+collections:
+  tools:
+    output: false
+  projects:
+    output: false
+
+# --------------- Exclude ---------------
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - "*.gemspec"
+  - "*.gem"
+  - README.md
+  - SECURITY.md
+  - .github
+
+# --------------- Include ---------------
+include:
+  - _pages
+  - robots.txt
+
+# --------------- SEO ---------------
+twitter:
+  username: ""
+
+logo: "/assets/images/profile/logo.svg"
+
+# --------------- Timezone ---------------
+timezone: "Asia/Colombo"
+
+# --------------- Sass ---------------
+sass:
+  style: compressed

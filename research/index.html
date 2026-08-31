@@ -1,0 +1,21 @@
+---
+layout: default
+title: "Security Research"
+permalink: /research/
+---
+
+<div class="container">
+  <h1 class="page-title">
+    <span style="color: var(--tag-research);">Vulnerability</span> & Security Research
+  </h1>
+  <p class="page-subtitle">Technical analysis, CVE breakdowns, exploitation mechanics, proof-of-concept material, and defense mitigation strategies.</p>
+
+  <div class="cards-grid">
+    {% assign research_posts = site.posts | where_exp: "item", "item.categories contains 'Research' or item.categories contains 'Vulnerability'" %}
+    {% for post in research_posts %}
+      {% include post-card.html post=post %}
+    {% else %}
+      <p style="color: var(--text-muted);">No research papers published yet.</p>
+    {% endfor %}
+  </div>
+</div>

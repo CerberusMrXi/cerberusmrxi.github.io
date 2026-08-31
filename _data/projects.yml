@@ -1,0 +1,27 @@
+# Personal projects
+# Replace placeholder entries with real projects as they are published
+
+- name: "Cerberus WasteWatcher"
+  description: "Real-time waste detection and monitoring system using YOLOv8s with IoU-based tracking and temporal carry/drop logic for industrial environments."
+  stack: ["Python", "YOLOv8", "OpenCV", "FastAPI"]
+  category: "Computer Vision / AI"
+  status: "Completed"
+  github: "https://github.com/CerberusMrXi"
+  demo: ""
+
+- name: "Security Research Blog"
+  description: "This site — a Jekyll-based static publication platform for security research, CTF writeups, and technical articles. Designed for GitHub Pages deployment."
+  stack: ["Jekyll", "HTML", "CSS", "JavaScript"]
+  category: "Developer Tools"
+  status: "Active"
+  github: "https://github.com/CerberusMrXi/sudeepawanigarathna.github.io"
+  demo: "https://sudeepawanigarathna.github.io"
+
+- name: "CTF Automation Toolkit"
+  description: "Collection of scripts and utilities for accelerating common CTF workflows including enumeration, binary analysis, and web exploitation."
+  stack: ["Python", "Shell", "Bash"]
+  category: "Security Tooling"
+  status: "In Development"
+  github: "https://github.com/CerberusMrXi"
+  demo: ""
+  placeholder: true

@@ -1,0 +1,23 @@
+---
+layout: default
+title: "Search Knowledge Base"
+permalink: /search/
+---
+
+<div class="article-container">
+  <h1 class="page-title">
+    Search Knowledge Base
+  </h1>
+  <p class="page-subtitle">Search writeups, research papers, vulnerabilities, and technical guides.</p>
+
+  <div style="margin: 2rem 0;">
+    <div style="position: relative;">
+      <input type="text" id="search-input" placeholder="Search by keyword, tag, platform, or CVE..." 
+             style="width: 100%; padding: 0.85rem 1.2rem; background: var(--bg-surface); border: 1px solid var(--border); border-radius: var(--radius-md); color: var(--text-primary); font-family: var(--font-mono); font-size: 1rem;" autofocus>
+    </div>
+  </div>
+
+  <div id="search-results-info" style="font-family: var(--font-mono); font-size: 0.875rem; color: var(--text-muted); margin-bottom: 1.5rem;"></div>
+
+  <div id="search-results" class="cards-grid" style="grid-template-columns: 1fr;"></div>
+</div>

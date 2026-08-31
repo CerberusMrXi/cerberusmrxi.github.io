@@ -1,0 +1,21 @@
+---
+layout: default
+title: "TryHackMe Walkthroughs"
+permalink: /tryhackme/
+---
+
+<div class="container">
+  <h1 class="page-title">
+    <span style="color: var(--tag-thm);">TryHackMe</span> Room Writeups
+  </h1>
+  <p class="page-subtitle">Walkthroughs, challenge room solutions, and notes on offensive security topics.</p>
+
+  <div class="cards-grid">
+    {% assign thm_posts = site.posts | where_exp: "item", "item.platform == 'TryHackMe' or item.categories contains 'TryHackMe' or item.categories contains 'THM'" %}
+    {% for post in thm_posts %}
+      {% include post-card.html post=post %}
+    {% else %}
+      <p style="color: var(--text-muted);">No TryHackMe writeups published yet.</p>
+    {% endfor %}
+  </div>
+</div>
