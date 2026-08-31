@@ -11,7 +11,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   try {
     resultsInfo.textContent = 'Loading search index...';
-    const response = await fetch('/search.json');
+    const searchJsonUrl = window.location.pathname.replace(/\/search\/?$/, '') + '/search.json';
+    const response = await fetch(searchJsonUrl);
+
     if (!response.ok) throw new Error('Search index not found');
     
     const posts = await response.json();

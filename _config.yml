@@ -11,9 +11,10 @@ description: >-
   Covering CTF writeups, vulnerability research, Hack The Box, TryHackMe, and security engineering.
 
 # --------------- Site URLs ---------------
-url: "https://sudeepawanigarathna.github.io"
-baseurl: ""
-canonical_url: "https://sudeepawanigarathna.github.io"
+url: "https://cerberusmrxi.github.io"
+baseurl: "/sudeepawanigarathna.github.io"
+canonical_url: "https://cerberusmrxi.github.io/sudeepawanigarathna.github.io"
+
 
 # --------------- Author ---------------
 author:

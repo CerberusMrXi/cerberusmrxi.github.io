@@ -58,9 +58,11 @@ document.addEventListener('DOMContentLoaded', () => {
         appendOutput(commands[cmd], 'var(--accent)');
         if (cmd in routes) {
           setTimeout(() => {
-            window.location.href = routes[cmd];
+            const basePath = window.location.pathname.replace(/\/$/, '') + '/';
+            window.location.href = basePath + routes[cmd].replace(/^\//, '');
           }, 600);
         }
+
       } else if (cmd.length > 0) {
         appendOutput(`$ ${currentBuffer}`);
         appendOutput(`command not found: ${cmd}. Type 'help' for available commands.`, 'var(--danger)');
