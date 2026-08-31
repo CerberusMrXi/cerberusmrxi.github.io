@@ -4,7 +4,7 @@
 
 Personal cybersecurity research blog and technical knowledge base for **Sudeepa Wanigarathna**.
 
-Website: [cerberusmrxi.github.io/sudeepawanigarathna.github.io](https://cerberusmrxi.github.io/sudeepawanigarathna.github.io/)
+Website: [sudeepawanigarathna.github.io](https://sudeepawanigarathna.github.io/)
 
 ---
 
