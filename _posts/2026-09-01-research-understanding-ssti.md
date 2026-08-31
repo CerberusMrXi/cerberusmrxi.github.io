@@ -9,6 +9,7 @@ difficulty: Hard
 description: "An in-depth technical analysis of Server-Side Template Injection vulnerabilities across Jinja2, Twig, and Freemarker engine implementations."
 ---
 
+{% raw %}
 > [!IMPORTANT]
 > **Responsible Disclosure Disclaimer**: The techniques described below are provided exclusively for defensive research and security auditing.
 
@@ -48,3 +49,5 @@ def page():
 1. **Never concatenate user input directly into template strings.**
 2. **Use Sandboxed Environments**: Utilize Jinja2's `SandboxedEnvironment` to restrict dangerous attribute access.
 3. **Content Security Policy (CSP)**: Limit inline script execution as defense-in-depth.
+{% endraw %}
+

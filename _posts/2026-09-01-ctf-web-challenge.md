@@ -9,6 +9,7 @@ difficulty: Medium
 description: "Detailed solution for a web challenge involving Server-Side Template Injection (SSTI) in Jinja2 to gain remote code execution."
 ---
 
+{% raw %}
 ## Challenge Summary
 
 - **Category**: Web
@@ -65,3 +66,5 @@ print(r.text)
 ```
 
 Flag retrieved successfully.
+{% endraw %}
+
