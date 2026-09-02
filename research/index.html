@@ -11,11 +11,15 @@ permalink: /research/
   <p class="page-subtitle">Technical analysis, CVE breakdowns, exploitation mechanics, proof-of-concept material, and defense mitigation strategies.</p>
 
   <div class="cards-grid">
-    {% assign research_posts = site.posts | where_exp: "item", "item.categories contains 'Research' or item.categories contains 'Vulnerability'" %}
-    {% for post in research_posts %}
-      {% include post-card.html post=post %}
-    {% else %}
-      <p style="color: var(--text-muted);">No research papers published yet.</p>
+    {% assign has_posts = false %}
+    {% for post in site.posts %}
+      {% if post.platform == 'Research' or post.categories contains 'Research' or post.categories contains 'Vulnerability' %}
+        {% include post-card.html post=post %}
+        {% assign has_posts = true %}
+      {% endif %}
     {% endfor %}
+    {% if has_posts == false %}
+      <p style="color: var(--text-muted);">No research papers published yet.</p>
+    {% endif %}
   </div>
 </div>
