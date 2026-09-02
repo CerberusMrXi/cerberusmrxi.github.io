@@ -5,9 +5,6 @@ subtitle: "Get in touch for security research, collaboration, or inquiries."
 permalink: /contact/
 ---
 
-<div class="article-container" style="padding: 0;">
-  <div class="article-content">
-
 For security research inquiries, collaboration, CTF team events, or professional opportunities, reach out through the following channels:
 
 <div style="background: var(--bg-surface); border: 1px solid var(--border); padding: 2rem; border-radius: var(--radius-md); margin: 2rem 0;">
@@ -50,6 +47,3 @@ For security research inquiries, collaboration, CTF team events, or professional
 
 > [!NOTE]
 > For vulnerability disclosures, please attach proof-of-concept material along with affected target details and steps to reproduce.
-
-  </div>
-</div>
