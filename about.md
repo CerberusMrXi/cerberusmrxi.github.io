@@ -5,9 +5,6 @@ subtitle: "Founder & CEO of SerendibWare • Security Researcher • Software En
 permalink: /about/
 ---
 
-<div class="article-container" style="padding: 0;">
-  <div class="article-content">
-
 ## Executive Overview
 
 I am **Sudeepa Wanigarathna** (online handle: `CerberusMrXi`), a security researcher, software engineer, and the **Founder & CEO of SerendibWare**.
@@ -114,6 +111,3 @@ Frameworks    : FastAPI, Node.js, React, Three.js, Jekyll
 - **Hack The Box**: [app.hackthebox.com/users/1373370](https://app.hackthebox.com/users/1373370)
 - **TryHackMe**: [tryhackme.com/p/CerberusMrX](https://tryhackme.com/p/CerberusMrX)
 - **LinkedIn**: [linkedin.com/in/sudeepa-wanigarathna09](https://www.linkedin.com/in/sudeepa-wanigarathna09)
-
-  </div>
-</div>
