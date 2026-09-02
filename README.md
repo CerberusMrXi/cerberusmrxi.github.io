@@ -1,8 +1,8 @@
 # Sudeepa Wanigarathna — Cybersecurity Blog & Research Lab
 
-[![Deploy Jekyll site to Pages](https://github.com/CerberusMrXi/sudeepawanigarathna.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/CerberusMrXi/sudeepawanigarathna.github.io/actions/workflows/deploy.yml)
+[![Deploy Jekyll site to Pages](https://github.com/CerberusMrXi/cerberusmrxi.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/CerberusMrXi/cerberusmrxi.github.io/actions/workflows/deploy.yml)
 
-Personal cybersecurity research blog and technical knowledge base for **Sudeepa Wanigarathna**.
+Personal cybersecurity research blog and technical knowledge base for **Sudeepa Wanigarathna** (CerberusMrXi).
 
 Website: [cerberusmrxi.github.io](https://cerberusmrxi.github.io/)
 
@@ -30,8 +30,8 @@ Website: [cerberusmrxi.github.io](https://cerberusmrxi.github.io/)
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/CerberusMrXi/sudeepawanigarathna.github.io.git
-cd sudeepawanigarathna.github.io
+git clone https://github.com/CerberusMrXi/cerberusmrxi.github.io.git
+cd cerberusmrxi.github.io
 
 # 2. Install dependencies
 bundle install
