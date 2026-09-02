@@ -11,11 +11,15 @@ permalink: /htb/
   <p class="page-subtitle">Detailed penetration testing walkthroughs covering enumeration, exploitation, and privilege escalation.</p>
 
   <div class="cards-grid">
-    {% assign htb_posts = site.posts | where_exp: "item", "item.platform == 'HTB' or item.categories contains 'HTB'" %}
-    {% for post in htb_posts %}
-      {% include post-card.html post=post %}
-    {% else %}
-      <p style="color: var(--text-muted);">No HTB writeups published yet.</p>
+    {% assign has_posts = false %}
+    {% for post in site.posts %}
+      {% if post.platform == 'HTB' or post.categories contains 'HTB' %}
+        {% include post-card.html post=post %}
+        {% assign has_posts = true %}
+      {% endif %}
     {% endfor %}
+    {% if has_posts == false %}
+      <p style="color: var(--text-muted);">No HTB writeups published yet.</p>
+    {% endif %}
   </div>
 </div>
