@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     tools: 'Navigating to /tools/...',
     projects: 'Navigating to /projects/...',
     contact: 'Navigating to /contact/...',
-    whoami: 'sudeepa@research-lab — Founder & CEO of SerendibWare | Security Researcher & Software Engineer'
+    whoami: 'cerberusmrxi@research-lab — Founder & CEO of SerendibWare | Security Researcher & Software Engineer'
   };
 
   const routes = {
