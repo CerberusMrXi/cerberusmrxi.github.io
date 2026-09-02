@@ -2,7 +2,7 @@
 
 ## Responsible Disclosure & Purpose
 
-This repository and publication platform (`sudeepawanigarathna.github.io`) contain personal security research notes, writeups, and proof-of-concept material published by **Sudeepa Wanigarathna**.
+This repository and publication platform (`cerberusmrxi.github.io`) contain personal security research notes, writeups, and proof-of-concept material published by **CerberusMrXi** (Sudeepa Wanigarathna).
 
 All published content is intended exclusively for educational, authorized security auditing, research, and defensive purposes.
 
