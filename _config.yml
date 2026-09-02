@@ -1,5 +1,5 @@
 # ============================================================
-#  _config.yml — Sudeepa Wanigarathna / sudeepawanigarathna.github.io
+#  _config.yml — CerberusMrXi / cerberusmrxi.github.io
 # ============================================================
 
 # --------------- Site Identity ---------------
@@ -10,15 +10,15 @@ description: >-
   Personal cybersecurity research blog, enterprise software lab, and technical knowledge base by Sudeepa Wanigarathna, Founder & CEO of SerendibWare.
 
 # --------------- Site URLs ---------------
-url: "https://sudeepawanigarathna.github.io"
+url: "https://cerberusmrxi.github.io"
 baseurl: ""
-canonical_url: "https://sudeepawanigarathna.github.io"
+canonical_url: "https://cerberusmrxi.github.io"
 
 # --------------- Author ---------------
 author:
   name: "Sudeepa Wanigarathna"
-  handle: "sudeepa"
-  prompt: "sudeepa@research-lab"
+  handle: "cerberusmrxi"
+  prompt: "cerberusmrxi@research-lab"
   role: "Founder & CEO of SerendibWare • Security Researcher"
   focus: "Enterprise AI / Web Security / Vulnerability Research"
   languages: "Python / JavaScript / TypeScript / C / Rust"
